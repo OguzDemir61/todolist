@@ -138,7 +138,7 @@ function addTodoToStorage(newTodo) {
   localStorage.setItem("todos", JSON.stringify(todos));
 }
 
-//*Bilgilendirme mesajlarını yazdım
+//*Bilgilendirme mesajlarını ekledim
 function showAlert(type, message) {
   /*
   <div class="alert alert-warning" role="alert">
